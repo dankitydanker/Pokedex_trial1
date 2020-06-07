@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/browse_all"
+            android:icon="@drawable/poke_nav_drawer"
+            android:title="Browse all Pokemon" />
+        <item
+            android:id="@+id/browse_type"
+            android:icon="@drawable/ice_nav_drawer"
+            android:title="Browse Pokemon by Type" />
+        <item
+            android:id="@+id/browse_items"
+            android:icon="@drawable/pokedex_nav_drawer"
+            android:title="Browse items" />
+        <item android:id="@+id/browse_locations"
+            android:icon="@drawable/ic_map"
+            android:title="Browse Locations" />
+    </group>
+
+
+</menu>

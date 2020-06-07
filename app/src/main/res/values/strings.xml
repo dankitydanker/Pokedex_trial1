@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pokedex_trial1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="SearchType">
+        <item>Pokemon</item>
+        <item>Item</item>
+        <item>Location</item>
+    </string-array>
+
+</resources>

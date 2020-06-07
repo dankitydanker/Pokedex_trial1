@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D7DCA">
+
+    <ImageView
+        android:id="@+id/ivSpinnerPokemonType"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/bug_type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSpinnerPokemonType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:fontFamily="@font/pokemon_solid"
+        android:text="Bug"
+        android:textColor="#FFCB05"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/ivSpinnerPokemonType"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
